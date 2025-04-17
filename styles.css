@@ -8,20 +8,74 @@ body {
     background-color: #f4f4f4;
 }
 
-.navbar-container {
+header {
     background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+.logo {
+    border: 2px solid white;
+    padding: 10px, 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    justify-items: space-around;
+    width: 300px; 
+    height: 100px; 
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1, .title h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+}
+
+.title h2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.navbar-container {
     overflow: hidden;
     position: sticky;
     top: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.75rem;
     padding: 4px;
     z-index: 1000;
+    color: white;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-around;
+    gap: 7vw;
     align-items: center;
     padding: 10px 10px;
     list-style-type: none;
@@ -30,7 +84,7 @@ body {
 .navbar a {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -51,20 +105,21 @@ body {
     color: #333;
 }
 
-.header h1 {
+main h1 {
     font-size: 48px;
     margin-bottom: 0px;
 }
 
-.subtitle {
-    font-size: 28px;
-    margin-top: 2px;
-}
-
-header img {
+main img {
     width: 400px;
     height: 400px;
     margin-bottom: 20px ;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: 2px;
+    color: #333;
 }
 
 .main-content {
