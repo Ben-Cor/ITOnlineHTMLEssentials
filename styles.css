@@ -5,14 +5,16 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.7);
     background-image: url(images/cyberspace.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-blend-mode: darken;
     font-family: "Space Grotesk", sans-serif;
 }
+
 
 header {
     background-color: #333;
@@ -121,6 +123,13 @@ main {
 main h3 {
     font-size: 48px;
     margin-bottom: 0px;
+    color: whitesmoke;
+}
+
+main p {
+    font-size: 16px;
+    margin-top: 0px;
+    color: whitesmoke;
 }
 
 main img {
@@ -130,9 +139,9 @@ main img {
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-top: 2px;
-    color: #333;
+    color: lightgray;
 }
 
 .main-content {
