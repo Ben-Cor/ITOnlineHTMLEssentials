@@ -151,17 +151,6 @@ li {
     color: #333;
 }
 
-a {
-    color: darkblue;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #5492cf;
-}
-
 footer {
     background-color: #333;
     overflow: hidden;
@@ -187,4 +176,13 @@ footer a {
     margin-right: 10px;
     color: white !important;
     font-size: x-large;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+footer i:hover {
+    text-decoration: underline;
+    color: #5492cf;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
