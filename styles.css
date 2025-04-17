@@ -19,7 +19,8 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,13 +37,13 @@ header {
     align-items: center; 
     justify-content: flex-start; 
     justify-items: space-around;
-    width: 300px; 
-    height: 100px; 
+    width: 270px; 
+    height: 80px; 
     box-sizing: border-box;
 }
 
 .logo img {
-    width: 150px;
+    width: 100px;
     height: auto;
     margin-right: 10px;
 }
@@ -75,7 +76,6 @@ header {
     position: sticky;
     top: 0;
     font-size: 1.75rem;
-    padding: 4px;
     z-index: 1000;
     color: white;
 }
@@ -111,12 +111,19 @@ header {
     color: #333;
 }
 
+.intro-paragraph {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
     padding: 20px;
 }
 
@@ -127,7 +134,7 @@ main h3 {
 }
 
 main p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0px;
     color: whitesmoke;
 }
@@ -154,22 +161,14 @@ main img {
     align-items: center;
     flex-direction: column;
     height: 50vh;
+    text-align: center;
+    width: 70vw;
+    color: whitesmoke;
 }
 
-h2 {
-    font-size: 32px;
-    color: #333;
-}
-
-
-p {
-    font-size: 16px;
-    color: #333;
-}
-
-li {
-    font-size: 16px;
-    color: #333;
+.about-section p, .interests-section p, .links-section p {
+    font-size: 1rem;
+    padding-top: 20px;
 }
 
 footer {
