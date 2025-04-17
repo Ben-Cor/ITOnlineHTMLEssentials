@@ -19,19 +19,25 @@ body {
     z-index: 1000;
 }
 
-.navbar {
+.navbar ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    list-style-type: none;
 }
 
 .navbar a {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.75rem;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-    color: lightblue;
+    color: rgb(90, 138, 211);
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .header {
