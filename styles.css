@@ -162,7 +162,7 @@ a:hover {
     color: #5492cf;
 }
 
-.footer {
+footer {
     background-color: #333;
     overflow: hidden;
     position: sticky;
@@ -176,7 +176,7 @@ a:hover {
 
 }
 
-.footer p {
+footer p {
     font-size: 1rem;
     color: white;
 }
@@ -185,6 +185,6 @@ footer a {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    color: white;
+    color: white !important;
     font-size: x-large;
 }
