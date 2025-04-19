@@ -37,7 +37,7 @@ header {
     align-items: center; 
     justify-content: flex-start; 
     justify-items: space-around;
-    width: 270px; 
+    width: 240px; 
     height: 80px; 
     box-sizing: border-box;
 }
@@ -206,3 +206,5 @@ footer i:hover {
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
+
