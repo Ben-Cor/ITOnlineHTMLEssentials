@@ -27,7 +27,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -272,11 +271,38 @@ footer i:hover {
 
 
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout */
   @media screen and (max-width: 800px) {
     .column {
       flex: 45%;
       max-width: 45%;
+    }
+    .navbar a {
+        font-size: .75rem;
+    }
+    .navbar-container{
+        height: auto;
+        padding: 10px;
+        margin: 0  ;
+    }
+    .logo {
+        width: 180px; 
+        height: 60px; 
+        box-sizing: border-box;
+    }
+    .logo img {
+        width: 60px;
+        height: auto;
+        margin-right: 10px;
+    }
+    header {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center
+    }
+    .navbar ul {
+        gap: 20px;
+        margin: 0;
     }
   }
   
