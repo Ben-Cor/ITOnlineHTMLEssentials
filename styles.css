@@ -196,7 +196,7 @@ main img {
 }
 
 .contact-form input{
-    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -204,7 +204,7 @@ main img {
 }
 
 .contact-form textarea {
-    width: 100%;
+    box-sizing: border-box;
     height: 200px;
     padding: 10px;
     border: 1px solid #ccc;
